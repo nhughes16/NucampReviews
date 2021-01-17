@@ -22,8 +22,11 @@
 <body>
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
-            <div class='row'>
-                <div class='col'>
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="./img/logo.png" alt="NuCamp Logo" class="img-fluid">
+                </div>
+                <div class="col">
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>
@@ -33,15 +36,26 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                <span class="navbar-togger-icon"></span>
+            <a href="#" class="navbar-brand"><img src="./img/logo.png" alt="NuCamp Logo" height="30" width="30"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="./aboutUs.html"><i class="fa fa-info fa-lg"></i> About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
-                <li class="nav-item"><a class="nav-link" href="./contactUs.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutUs.html"><i class="fa fa-info fa-lg"></i> About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactUs.html"><i class="fa fa-address-card fa-lg"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
